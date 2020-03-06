@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="2" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[This test verifies Homepage]]>
+    </line>
+  </reporter-output>
+  <suite name="Verify Mapsynq" duration-ms="20059" started-at="2020-03-05T18:04:00Z" finished-at="2020-03-05T18:04:20Z">
+    <groups>
+    </groups>
+    <test name="Test Mapsynq" duration-ms="20059" started-at="2020-03-05T18:04:00Z" finished-at="2020-03-05T18:04:20Z">
+      <class name="test.java.runner.Mapsynq">
+        <test-method status="FAIL" signature="testHomepageFunctionality()[pri:0, instance:test.java.runner.Mapsynq@6a2bcfcb]" name="testHomepageFunctionality" duration-ms="89" started-at="2020-03-05T23:34:00Z" finished-at="2020-03-05T23:34:00Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy8.click(Unknown Source)
+	at main.java.pages.HomePage.clickSlider(HomePage.java:116)
+	at test.java.runner.Mapsynq.testHomepageFunctionality(Mapsynq.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+            <line>
+              <![CDATA[This test verifies Homepage]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testHomepageFunctionality -->
+        <test-method status="PASS" signature="loadBrowser()[pri:0, instance:test.java.runner.Mapsynq@6a2bcfcb]" name="loadBrowser" duration-ms="20027" started-at="2020-03-05T23:34:00Z" finished-at="2020-03-05T23:34:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadBrowser -->
+        <test-method status="FAIL" signature="screenshotForFailedTests(org.testng.ITestResult)[pri:0, instance:test.java.runner.Mapsynq@6a2bcfcb]" name="screenshotForFailedTests" is-config="true" duration-ms="0" started-at="2020-03-05T23:34:00Z" finished-at="2020-03-05T23:34:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testHomepageFunctionality status=FAILURE method=Mapsynq.testHomepageFunctionality()[pri:0, instance:test.java.runner.Mapsynq@6a2bcfcb] output=This test verifies Homepage]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at main.java.util.Utility.screenshotForFailedTest(Utility.java:39)
+	at test.java.runner.Mapsynq.screenshotForFailedTests(Mapsynq.java:115)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:786)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotForFailedTests -->
+        <test-method status="SKIP" signature="screenshotForFailedTests(org.testng.ITestResult)[pri:0, instance:test.java.runner.Mapsynq@6a2bcfcb]" name="screenshotForFailedTests" is-config="true" duration-ms="0" started-at="2020-03-05T23:34:20Z" finished-at="2020-03-05T23:34:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotForFailedTests -->
+      </class> <!-- test.java.runner.Mapsynq -->
+    </test> <!-- Test Mapsynq -->
+  </suite> <!-- Verify Mapsynq -->
+</testng-results>
